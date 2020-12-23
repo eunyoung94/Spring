@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringApp1223"/>
+<aop-project name="AOPProject">
+<aspect-definition advice-class-name="test.Bell" advice-method-name="StartBell" advice-type="BEFORE" aspect-end-line-number="28" aspect-name="bell" aspect-start-line-number="28" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/AOPProject/WebContent/WEB-INF/mycontext.xml" pointcut-expression="execution(public * test.Dog.*(..))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AOPProject|3:WebContent/WEB-INF/mycontext.xml|7:beans:6|8:dog:33" bean-file="/AOPProject/WebContent/WEB-INF/mycontext.xml" bean-start-line="33" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AOPProject/WebContent/WEB-INF/mycontext.xml" source="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Bell.java[Bell~StartBell" source-start-line="5" target="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Dog.java[Dog~haveFood3" target-start-line="11"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AOPProject|3:WebContent/WEB-INF/mycontext.xml|7:beans:6|8:dog:33" bean-file="/AOPProject/WebContent/WEB-INF/mycontext.xml" bean-start-line="33" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AOPProject/WebContent/WEB-INF/mycontext.xml" source="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Bell.java[Bell~StartBell" source-start-line="5" target="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Dog.java[Dog~haveFood2" target-start-line="8"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AOPProject|3:WebContent/WEB-INF/mycontext.xml|7:beans:6|8:dog:33" bean-file="/AOPProject/WebContent/WEB-INF/mycontext.xml" bean-start-line="33" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AOPProject/WebContent/WEB-INF/mycontext.xml" source="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Bell.java[Bell~StartBell" source-start-line="5" target="=AOPProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;test{Dog.java[Dog~haveFood1" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>
