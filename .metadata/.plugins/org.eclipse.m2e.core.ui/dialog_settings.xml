@@ -2,12 +2,20 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringFinal2"/>
+			<item value="SpringFianl"/>
+			<item value="SpringFinal"/>
+			<item value="PR1223"/>
 			<item value="AOPProject"/>
 			<item value="SpringApp1223"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringFinal2"/>
+			<item value="SpringFianl"/>
+			<item value="SpringFinal"/>
+			<item value="PR1223"/>
 			<item value="AOPProject"/>
 			<item value="SpringApp1223"/>
 		</list>

@@ -18,7 +18,6 @@ public class BoardDAO {
 	
 	public List selectAll() {
 		List list=null;
-		
 		SqlSession sqlSession=manager.getSqlSession();
 		list=sqlSession.selectList("Board.selectAll");
 		manager.close(sqlSession);
