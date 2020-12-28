@@ -8,13 +8,18 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="oracle"/>
+		<item key="selection" value="emp"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="dept"/>
+			<item value="junit"/>
+			<item value="context"/>
+			<item value="\"/>
+			<item value="FileManager"/>
 			<item value="oracle"/>
 			<item value="regist"/>
 			<item value="insert"/>
@@ -25,13 +30,10 @@
 			<item value="getInstance"/>
 			<item value="mappings"/>
 			<item value=".do"/>
-			<item value="mysql"/>
-			<item value="my"/>
-			<item value="auth"/>
-			<item value="&lt;Resouce"/>
-			<item value="spring_workspace/Servers/"/>
 		</list>
 		<list key="replacehistory">
+			<item value="emp"/>
+			<item value="/"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

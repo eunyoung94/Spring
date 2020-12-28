@@ -13,4 +13,23 @@
 		<item key="DIALOG_HEIGHT" value="645"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\workspace\javaee_workspace\SpringMVC1222"/>
+			<item value="D:\workspace\javaee_workspace\webApp1216"/>
+			<item value="D:\workspace\javaee_workspace\Model2App"/>
+			<item value="D:\workspace\javaee_workspace\MVCFramwork"/>
+			<item value="D:\workspace\javaee_workspace\ServletApp"/>
+			<item value="D:\workspace\javaee_workspace\SpringApp1"/>
+			<item value="D:\workspace\javaee_workspace\MySite"/>
+			<item value="C:\Users\최은영\Desktop\javaee_workspace-master\javaee_workspace-master\BoardApp"/>
+			<item value="D:\workspace\javaee_workspace\BoardApp2"/>
+			<item value="D:\workspace\javaee_workspace\BoardApp"/>
+			<item value="D:\spring_workspace\SpringFianl"/>
+		</list>
+	</section>
 </section>

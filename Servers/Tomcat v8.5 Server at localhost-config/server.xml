@@ -40,9 +40,9 @@
     
     <Resource auth="Container" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase" pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
   
-   <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="20" maxIdle="10" maxWait="3000" name="jdbc/myoracle" password="shop" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:XE" username="shop"/>  
+   <Resource name="jdbc/myoracle" auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="20" maxIdle="10" maxWait="3000" password="shop" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:XE" username="shop"/>  
 	    
-    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="3000" name="jdbc/mysql" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost/db1216" username="root"/>
+    <Resource name="jdbc/mysql" auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="3000" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost/db1216" username="root"/>
   
   
   </GlobalNamingResources>
@@ -68,7 +68,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="9999" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="7777" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -161,7 +161,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="SpringApp1223" path="/SpringApp1223" reloadable="true" source="org.eclipse.jst.jee.server:SpringApp1223"/></Host>
+      <Context docBase="BoardApp2" path="/BoardApp2" reloadable="true" source="org.eclipse.jst.jee.server:BoardApp2"/><Context docBase="MySite" path="/MySite" reloadable="true" source="org.eclipse.jst.jee.server:MySite"/><Context docBase="ServletApp" path="/ServletApp" reloadable="true" source="org.eclipse.jst.jee.server:ServletApp"/><Context docBase="MVCFramwork" path="/MVCFramwork" reloadable="true" source="org.eclipse.jst.jee.server:MVCFramwork"/><Context docBase="Model2App" path="/Model2App" reloadable="true" source="org.eclipse.jst.jee.server:Model2App"/><Context docBase="webApp1216" path="/webApp1216" reloadable="true" source="org.eclipse.jst.jee.server:webApp1216"/><Context docBase="SpringMVC1222" path="/SpringMVC1222" reloadable="true" source="org.eclipse.jst.jee.server:SpringMVC1222"/><Context docBase="MyLegacy" path="/" reloadable="true" source="org.eclipse.jst.jee.server:MyLegacy"/></Host>
     </Engine>
   </Service>
 </Server>
