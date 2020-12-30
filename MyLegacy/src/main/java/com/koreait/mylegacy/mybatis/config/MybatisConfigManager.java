@@ -1,8 +1,3 @@
-/*�� Ŭ������ ����:
- * ������ ���࿡ �ʿ��� SqlSession�� ���� ���� �� �� �ֵ��� ���뼺�� ����Ͽ� 
- * ������ ��ü, Ư�� �� ��ü�� �ν��Ͻ��� ���ø����̼ǳ����� 1���� �־� �ϹǷ� SingleTon 
- * �������� �����Ѵ�!!
- * */ 
 package com.koreait.mylegacy.mybatis.config;
 
 import java.io.IOException;
@@ -16,15 +11,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MybatisConfigManager {
-	//2) �����ڸ� �������Ƿ�, ���� Ŭ�������� �ν��Ͻ��� �������� ������ ����� ����� ����.
-	//���� ���� Ŭ�������� getter�� ����������!!
 	private static MybatisConfigManager instance;
 	InputStream inputStream;
 	SqlSessionFactory sqlSessionFactory;
 	
-	//1) �����ڸ� ���, �ƹ��� new ���ϰ� ������!!
+
 	private MybatisConfigManager() {
-		String resource = "com.koreait.mylegacy.mybatis.config/config.xml";
+		String resource = "com/koreait/mylegacy/mybatis/config/config.xml";
 		try {
 			inputStream = Resources.getResourceAsStream(resource);
 			sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
@@ -59,18 +52,5 @@ public class MybatisConfigManager {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

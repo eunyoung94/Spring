@@ -61,11 +61,6 @@
 			<location>C:/Users/최은영/Desktop/SpringFinal/WebContent/error/result.jsp</location>
 		</link>
 		<link>
-			<name>WebContent/gallery/comment_list.jsp</name>
-			<type>1</type>
-			<location>C:/Users/최은영/Desktop/SpringFinal/WebContent/gallery/comment_list.jsp</location>
-		</link>
-		<link>
 			<name>WebContent/gallery/comment_regist.jsp</name>
 			<type>1</type>
 			<location>C:/Users/최은영/Desktop/SpringFinal/WebContent/gallery/comment_regist.jsp</location>

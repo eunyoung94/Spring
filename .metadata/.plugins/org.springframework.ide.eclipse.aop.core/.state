@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="MVCLegacy2"/>
+<aop-project name="MVCLegacy3"/>
+<aop-project name="FashionShop"/>
 <aop-project name="MyLegacy"/>
+<aop-project name="MVCLegacy"/>
 <aop-project name="SpringMVC1222"/>
 <aop-project name="AOPProject">
 <aspect-definition advice-class-name="test.Bell" advice-method-name="StartBell" advice-type="BEFORE" aspect-end-line-number="28" aspect-name="bell" aspect-start-line-number="28" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/AOPProject/WebContent/WEB-INF/mycontext.xml" pointcut-expression="execution(public * test.Dog.*(..))" proxy-target-class="false">

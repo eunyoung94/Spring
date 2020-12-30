@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="MVCLegacy3"/>
 			<item value="SpringFinal2"/>
 			<item value="SpringFianl"/>
 			<item value="SpringFinal"/>
@@ -12,6 +13,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="MVCLegacy3"/>
 			<item value="SpringFinal2"/>
 			<item value="SpringFianl"/>
 			<item value="SpringFinal"/>
